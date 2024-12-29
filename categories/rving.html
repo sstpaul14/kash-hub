@@ -4,63 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kash-Hub | Outdoor Gear Reviews</title>
-    <link rel="stylesheet" href="css/categories.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="hero">
-        <div class="container">
-            <h1>Kash-Hub</h1>
-            <p>Your trusted source for outdoor gear reviews and recommendations.</p>
-            <a href="#categories" class="btn-primary">Explore Categories</a>
-        </div>
+    <header>
+        <h1>Camping Gear</h1>
+        <p>Explore top-rated camping gear for your next outdoor adventure.</p>
     </header>
 
-    <nav>
-        <ul class="nav-links">
-            <li><a href="about.html">About</a></li>
-            <li><a href="#categories">Categories</a></li>
-            <li><a href="#reviews">Reviews</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-
-    <main>
-        <section id="categories" class="section">
-            <h2>Explore Categories</h2>
-            <div class="card-grid">
-                <div class="card">
-                    <h3>Camping</h3>
-                    <p>Find the best tents, sleeping bags, and stoves for your adventures.</p>
-                    <a href="categories/camping.html" class="btn-secondary">Learn More</a>
-                </div>
-                <div class="card">
-                    <h3>Hiking</h3>
-                    <p>Explore top-rated backpacks, boots, and trekking gear.</p>
-                    <a href="categories/hiking.html" class="btn-secondary">Learn More</a>
-                </div>
-                <div class="card">
-                    <h3>RVing</h3>
-                    <p>Discover essential RV accessories like generators and solar panels.</p>
-                    <a href="categories/rving.html" class="btn-secondary">Learn More</a>
-                </div>
-                <div class="card">
-                    <h3>Outdoor Gear</h3>
-                    <p>Top-rated coolers, grills, and hammocks for your adventures.</p>
-                    <a href="categories/outdoor-gear.html" class="btn-secondary">Learn More</a>
+    <div class="category-container">
+        <div class="category-grid">
+            <div class="category-card">
+                <img src="../assets/images/products/tent.jpg" alt="Tent">
+                <div class="category-card-content">
+                    <h3>4-Person Tent</h3>
+                    <p>Durable and spacious, perfect for family camping trips.</p>
+                    <a href="../reviews/tent-review.html" class="btn-primary">Read Review</a>
                 </div>
             </div>
-        </section>
 
-        <section id="reviews" class="section">
-            <h2>Featured Review</h2>
-            <div class="review-highlight">
-                <h3>Universal Cleaning Gel for RVs</h3>
-                <p>Keep your RV spotless during and after your adventures with this versatile cleaning gel.</p>
-                <a href="reviews/rv-cleaning-gel.html" class="btn-primary">Read Full Review</a>
+            <div class="category-card">
+                <img src="../assets/images/products/sleeping-bag.jpg" alt="Sleeping Bag">
+                <div class="category-card-content">
+                    <h3>Sleeping Bag</h3>
+                    <p>Stay warm and cozy with this lightweight sleeping bag.</p>
+                    <a href="../reviews/sleeping-bag-review.html" class="btn-primary">Read Review</a>
+                </div>
             </div>
-        </section>
-    </main>
+
+            <div class="category-card">
+                <img src="../assets/images/products/camping-stove.jpg" alt="Camping Stove">
+                <div class="category-card-content">
+                    <h3>Portable Camping Stove</h3>
+                    <p>Compact and efficient, ideal for outdoor cooking.</p>
+                    <a href="../reviews/camping-stove-review.html" class="btn-primary">Read Review</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer>
         <p>&copy; 2024 Kash-Hub. All rights reserved.</p>
