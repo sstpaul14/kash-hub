@@ -100,3 +100,32 @@ footer {
 footer p {
     margin: 0;
 }
+
+/*Breadcrumb Section */ 
+.breadcrumb {
+    list-style: none;
+    padding: 10px 15px;
+    margin: 0;
+    display: flex;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.breadcrumb-item {
+    margin-right: 10px;
+}
+
+.breadcrumb-item a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.breadcrumb-item a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb-item.active {
+    color: #6c757d;
+    pointer-events: none;
+    cursor: default;
+}
