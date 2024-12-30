@@ -101,13 +101,17 @@ footer p {
     margin: 0;
 }
 
-/*Breadcrumb Section */ 
 .breadcrumb {
     list-style: none;
     padding: 10px 15px;
     margin: 0;
     display: flex;
-    background-color: #f9f9f9;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent */
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
     border-radius: 5px;
 }
 
@@ -117,7 +121,8 @@ footer p {
 
 .breadcrumb-item a {
     text-decoration: none;
-    color: #007bff;
+    color: white;
+    font-weight: bold;
 }
 
 .breadcrumb-item a:hover {
@@ -125,7 +130,6 @@ footer p {
 }
 
 .breadcrumb-item.active {
-    color: #6c757d;
+    color: #ddd;
     pointer-events: none;
-    cursor: default;
 }
