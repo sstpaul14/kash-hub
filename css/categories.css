@@ -11,7 +11,7 @@ body {
 /* Header Section */
 header {
     background: url('../assets/images/hero/category-banner.jpg') center/cover no-repeat;
-    color: white;
+    color: black;
     text-align: center;
     padding: 60px 20px;
 }
